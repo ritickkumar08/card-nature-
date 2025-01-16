@@ -1,0 +1,97 @@
+*{
+    background-color: black;
+}
+.box {
+  border-radius: 5px;
+}
+.box1 {
+  height: 70vh;
+  width: 22vw;
+  padding: 40px;
+  border: 2px solid aliceblue;
+  background-color: aliceblue;
+  position: relative;
+  left: 30vw;
+}
+.box2 {
+  border: 2px solid grey;
+  padding: 20px;
+  position: absolute;
+  left: 32vw;
+  top: 30px;
+  height: 69vh;
+  width: 22vw;
+  z-index: 1;
+  background-color: grey;
+  box-shadow: 0 4px 6px rgb(0,0,0);
+}
+img {
+    width: 100%; /* Make the image fit the box */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+}
+.box3 {
+  width: 317px; /* Set box width */
+  height: 197px; /* Set box height */
+  border: 2px solid grey; /* Add a border */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  overflow: hidden; /* Ensure the photo doesn't spill out */
+  display: flex;
+  align-items: center; /* Center the image vertically */
+  justify-content: center; /* Center the image horizontally */
+  background-color: #f4f4f4; /* Optional: Background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+.box4{
+    height: 26px;
+    width: 100px;
+    border: 2px solid blue;
+    margin: 2px;
+    position: absolute;
+    left: 122px;
+    bottom: 38px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 20px;
+    color: whitesmoke;
+    background-color: blue;
+    box-shadow: 0 4px 6px rgb(0,0,0);
+}
+.box5 {
+    height: 211px;
+    padding: 10px;
+    position: absolute;
+    z-index: 5;
+    color: black;
+    text-align: left;
+    bottom: 90px;
+    background-color: grey;
+  }
+  
+ul{
+    display: flex;
+    background-color: grey;
+    
+}
+.box6 ul li{
+    list-style: none;
+    padding: 3px;
+    border: 2px solid wheat;
+    margin: 5px;
+    border-radius: 20px;
+    position: relative;
+    left: -41px;
+    box-shadow: 0 4px 6px rgb(0,0,0);
+    background-color: wheat;  
+}
+h2{
+    color: wheat;
+    text-shadow: 0 4px 6px rgb(0,0,0);
+    font-style: italic;
+    background-color: grey;
+}
+p{
+    color: whitesmoke;
+    text-shadow: 0 4px 6px rgb(0,0,0);
+    background-color: grey;
+}
